@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Async</title>
+  <script>
+    var p = document.querySelector("# writeMe");
+    setTimeout(function () {
+      for (var i = 0; i < 1000; i++) {
+        p.innerHTML += "Deneme <br/>";
+      }
+    }, 1000);
+  </script>
+</head>
+
+<body>
+  <p>Naber Nasılsın </p>
+  <span id="writeMe"></span>
+</body>
+
+</html>
