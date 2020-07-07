@@ -41,3 +41,4 @@ for (var i = 0; i < array.length; i++) {
 }
 //Bunun yerine çok hazır kolay kısayolu olan kütüphane kullanmaktır.Kütüphanenin adı underscore.js'dir
 //Bu underscore'u da npm den indiriyoruz
+/* Bunlarıda underscore.js dosyasında yazdım */
