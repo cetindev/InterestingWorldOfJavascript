@@ -5,6 +5,8 @@ console.log(even);
 
 var listOfPlays = [{ author: "Tarik", year: 2017, age: 30 },
 { author: "Ali", year: 2017, age: 41 },
+{ author: "Mehmet", year: 1999, age: 65 },
 { author: "Mehmet", year: 1999, age: 50 },];
+
 var yazarlar = und.where(listOfPlays, { author: "Mehmet", year: 1999 });
 console.dir(yazarlar);
